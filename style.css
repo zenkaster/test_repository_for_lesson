@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: 2px solid black;
+    /* height: 100px; */
+}
+
+
+header {
+    padding: 10px 120px;
+}
+
+.header {
+    padding: 10px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+    gap: 20px
+}
+
+.navigation ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    height: 100%;
+}
+
+.navigation ul li {
+    padding: 8px 10px 12px;
+    color: rgb(58, 95, 86);
+    font-family: Roboto;
+    line-height: 16px;
+}
+
+.cart {
+    padding: 13px 18px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+    border-radius: 6px;
+    background: rgb(58, 95, 86);
+    color: white;
+    border: 0;
+}
+
+.cart span {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    line-height: 22.4px;
+}
+
+.count {
+    border-radius: 9px;
+    background-color: white;
+    padding: 0 6px;
+    color: rgb(58, 95, 86);
+    font-family: Roboto;
+    font-size: 11px;
+    line-height: 18px;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#about {
+    background: rgb(244, 243, 240);
+    position: relative;
+    padding: 100px 136px;
+    overflow: hidden;
+}
+
+#about .content {
+    display: flex;
+    gap: 82px;
+    align-items: center;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: start;
+}
+
+.about-text h1 {
+    color: rgb(58, 95, 86);
+    font-family: Source Serif Pro;
+    font-size: 48px;
+    line-height: 57.6px;
+}
+
+.about-text p {
+    color: rgb(41, 44, 50);
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 22.4px;
+    width: 534px;
+}
+
+.about-text button {
+    border-radius: 6px;
+    border: 0;
+    background: rgb(58, 95, 86);
+
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 22.4px;
+
+    padding: 11px 18px;
+    border: 2px solid;
+    transition: 0.3s;
+    z-index: 1;
+}
+
+.about-text button:hover {
+    cursor: pointer;
+    border: 2px solid rgb(58, 95, 86);
+    background-color: rgb(244, 243, 240);
+    color: rgb(58, 95, 86);
+}
+
+.content img {
+    border-radius: 24px;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+    width: 552px;
+    height: 773px;
+    flex-shrink: 0;
+}
+
+#about .top {
+    position: absolute;
+    background: radial-gradient(50.00% 50.00% at 50% 50%, rgba(58, 95, 86, 0.55), rgba(58, 95, 86, 0) 100%);
+    width: 564px;
+    height: 494px;
+    right: -6.94%;
+    top: -100px;
+}
+
+#about .bottom {
+    position: absolute;
+    background: radial-gradient(50.00% 50.00% at 50% 50%, rgba(184, 125, 88, 0.8), rgba(184, 125, 88, 0) 100%);
+    width: 723px;
+    height: 813px;
+    left: -15.42%;
+    bottom: -442px;
+}
